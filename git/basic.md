@@ -81,7 +81,7 @@ git 폴더 생성
 
 ``` 
 $ git add <filename>
-$ git add .              # 모두 add
+$ git add .   # 모두 add
 ```
 
 untracked 파일 stage로
@@ -96,7 +96,7 @@ modified 파일 stage로
 
 ```
 $ git commit -m 'commit message'
-$ git commit --amend               # 바로 전 commit message 변경
+$ git commit --amend   # 바로 전 commit message 변경
 ```
 
 m : message
@@ -106,7 +106,7 @@ m : message
 ### restore
 
 ```
-$ git restore           # git을 modified로 복구
+$ git restore   # git을 modified로 복구
 ```
 
 
@@ -114,11 +114,11 @@ $ git restore           # git을 modified로 복구
 ### log
 
 ```
-$ git log								                    # commit 히스토리 조회
+$ git log   # commit 히스토리 조회
 
-$ git log --pretty=oneline	              	# 한 줄로 보기
+$ git log --pretty=oneline   # 한 줄로 보기
 
-$ git log --pretty=format:"%h %s" --graph	  # 그래프로 보기
+$ git log --pretty=format:"%h %s" --graph   # 그래프로 보기
 ```
 
 
@@ -126,14 +126,14 @@ $ git log --pretty=format:"%h %s" --graph	  # 그래프로 보기
 ### 원격 저장소 등록
 
 ```
-$ git remote add origin <URL>		    # 원격 저장소 등록
+$ git remote add origin <URL>   # 원격 저장소 등록
 
-$ git remote -v					           	# 원격 저장소 확인
-origin <URL>...					           	# origin remote 저장소의 이름
+$ git remote -v   # 원격 저장소 확인
+origin <URL>...   # origin remote 저장소의 이름
 
-$ git remote rm <remote_repo_name>	# 저장소 삭제
+$ git remote rm <remote_repo_name>   # 저장소 삭제
 
-$ git remote -v					           	# 삭제 확인
+$ git remote -v   	# 삭제 확인
 ```
 
 
@@ -141,7 +141,7 @@ $ git remote -v					           	# 삭제 확인
 ### 원격 저장소에 push
 
 ```
-$ git push origin master		      	# remote 이름이 origin 일 경우에 master 브랜치를 push
+$ git push origin master   # remote 이름이 origin 일 경우에 master 브랜치를 push
 ```
 
 
