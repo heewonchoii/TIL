@@ -115,6 +115,29 @@ commit 히스토리 조회
 
 
 
+### 원격 저장소 등록하기
+
+```
+$ git remote add origin <URL>   # 원격 저장소 등록하기
+
+$ git remote -v   # 원격 저장소 확인하기
+origin <URL>...   # origin remote 저장소의 이름
+
+$ git remote rm <remote_repo_name>
+
+$ git remote -v   # 없어진 것 확인
+```
+
+
+
+### 원격 저장소에 push 하기
+
+```
+$ git push origin master   #
+```
+
+
+
 ## markdown 사용법
 
 typora 파일->환경설정->이미지->드랍다운 3번(./${filename}.assets 경로로 이미지 복사->체크박스 3번(가능하다면 상대적 위치 사용)
