@@ -23,7 +23,7 @@ $ git branch -m <name1> <name2>       # name1을 name2로 이름변경
 ## vim
 
 ```
-$ vim <filename>          # vim 프로그램 실행
+$ vim <filename>              # vim 프로그램 실행
 ```
 
 | 기능키 | 설명                        |
@@ -57,7 +57,7 @@ $ git push origin master
 공유 초대 받으면
 
 ```
-$ git clone <url>               # git 내 로컬에 복사
+$ git clone <url>                 # git 내 로컬에 복사
 
 $ git pull origin master          # origin에 master 브랜치 데이터 가져오기
 ```
