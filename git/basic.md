@@ -38,6 +38,7 @@ $ git config--global user.email "<이메일>"
 ```
 $ git config user.name
 이름 출력
+
 $ git config user.email
 이메일 출력
 ```
