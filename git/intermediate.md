@@ -9,13 +9,13 @@ $ git branch					# 현재 브랜치 현황 확인
 
 $ git switch <name>				# 브랜치 이동(head 이동)
 
-$ git switch -c <name>		    	# 브랜치 생성 후 이동
+$ git switch -c <name>            # 브랜치 생성 후 이동
 
 $ git merge <name>				# 브랜치 현재 위치에서 흡수 합병 (항상 master에서!!)
 
-$ git branch -d <name>		  	  # 브랜치 삭제
+$ git branch -d <name>            # 브랜치 삭제
 
-$ git branch -m <name1> <name2> 	  # name1을 name2로 이름변경
+$ git branch -m <name1> <name2>       # name1을 name2로 이름변경
 ```
 
 
@@ -59,7 +59,7 @@ $ git push origin master
 ```
 $ git clone <url>				# git 내 로컬에 복사
 
-$ git pull origin master	  	  # origin에 master 브랜치 데이터 가져오기
+$ git pull origin master          # origin에 master 브랜치 데이터 가져오기
 ```
 
 ### conflict
