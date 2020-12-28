@@ -82,8 +82,11 @@ iterator(이터레이터), decorator(데코레이터)
 ## 참고 사이트
 
 dacon.io
+
 kaggle.com
+
 data.go.kr
+
 퓨리서치
 
 강사님 e-mail : gspark@kw.ac.kr
