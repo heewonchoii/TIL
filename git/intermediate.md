@@ -11,10 +11,6 @@
 | `$ git merge <name>`              | 브랜치 현재 위치에서 흡수 합병<br />(항상 master에서!!) |
 | `$ git branch -d <name>`          | 브랜치 삭제                                             |
 | `$ git branch -m <name1> <name2>` | name1을 name2로 이름변경                                |
-<<<<<<< HEAD
-=======
-
->>>>>>> 9e19ae812f870b58f6869520f90955cf98f34b4c
 
 
 ## vim
